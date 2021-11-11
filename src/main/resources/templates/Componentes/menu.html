@@ -1,0 +1,134 @@
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<div class="accordion accordion-flush" th:fragment="menu" id="accordionFlushExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                    aria-controls="flush-collapseOne">
+                Empleados
+            </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse"
+             aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/empleado/0">
+                            Registrar Empleados
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/empleados">
+                            Empleados Registrados
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                    aria-controls="flush-collapseTwo">
+                Cliente
+            </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+             aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/cliente/0">
+                            Registrar Clientes
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/clientes">
+                            Clientes Registrados
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                    aria-controls="flush-collapseThree">
+                Productos
+            </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse"
+             aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/producto/0">
+                            Registrar Productos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="productos">
+                            Productos Registrados
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                    aria-controls="flush-collapseFour">
+                Actividades
+            </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse"
+             aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/actividad/0">
+                            Registrar Actividades
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/actividades">
+                            Actividades Registrados
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive" aria-expanded="false"
+                    aria-controls="flush-collapseFive">
+                Asignación Actividad
+            </button>
+        </h2>
+        <div id="flush-collapseFive" class="accordion-collapse collapse"
+             aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/asignacion/0">
+                            Asignar Actividades
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/asignaciones">
+                            Activides Asignadas
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</html>
